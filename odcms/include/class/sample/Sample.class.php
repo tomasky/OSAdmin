@@ -1,7 +1,7 @@
 <?php
 if (!defined('ACCESS')) {exit('Access denied.');}
 
-class Sample extends SampleBase
+class Sample extends FirstBase
 {
 //class Sample extends Base {
 	private static $table_name = 'sample';
